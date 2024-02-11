@@ -9,7 +9,7 @@ def get_todos(filepath=FILEPATH):
 
 
 def write_todos(todos_arg, filepath=FILEPATH):
-    """ Writes a list to todo list file. (todo.txt)"""
+    """ Writes a list to to-do list file. (to-do.txt)"""
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
 
