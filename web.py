@@ -13,7 +13,7 @@ def add_todo():
 st.title("My todo app")
 st.subheader("This is my sub heading")
 
-st.text_input(label="", placeholder="Enter todo...",
+st.text_input(label ="", placeholder="Enter todo...",
               on_change=add_todo, key="new_todo")
 
 for index, todo in enumerate(todos):
